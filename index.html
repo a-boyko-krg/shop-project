@@ -52,7 +52,7 @@
                   </form>
                </div>
                <div class="counter">
-                  <p class="count">4</p>
+                  <p class="count" id="products-count">0</p>
                   <button class="btn-basket"></button>
                </div>
             </div>
@@ -181,7 +181,7 @@
                   </div>
                   <div class="price">$599<sup>25</sup></div>
                   <div class="buttons">
-                     <a href="#" class="btn-more">MORE DETAILS</a>
+                     <button class="btn-more">MORE DETAILS</button>
                      <div class="add-to-cart">
                         <button class="btn-add">
                            <span>ADD TO CART</span>
@@ -215,7 +215,7 @@
                   </div>
                   <div class="price">$1250<sup>99</sup></div>
                   <div class="buttons">
-                     <a href="#" class="btn-more">MORE DETAILS</a>
+                     <button class="btn-more">MORE DETAILS</button>
                      <div class="add-to-cart">
                         <button class="btn-add">
                            <span>ADD TO CART</span>
@@ -249,7 +249,7 @@
                   </div>
                   <div class="price">$399<sup>50</sup></div>
                   <div class="buttons">
-                     <a href="#" class="btn-more">MORE DETAILS</a>
+                     <button class="btn-more">MORE DETAILS</button>
                      <div class="add-to-cart">
                         <button class="btn-add">
                            <span>ADD TO CART</span>
@@ -283,7 +283,7 @@
                   </div>
                   <div class="price">$599<sup>25</sup></div>
                   <div class="buttons">
-                     <a href="#" class="btn-more">MORE DETAILS</a>
+                     <button class="btn-more">MORE DETAILS</button>
                      <div class="add-to-cart">
                         <button class="btn-add">
                            <span>ADD TO CART</span>
@@ -317,7 +317,7 @@
                   </div>
                   <div class="price">$1250<sup>99</sup></div>
                   <div class="buttons">
-                     <a href="#" class="btn-more">MORE DETAILS</a>
+                     <button class="btn-more">MORE DETAILS</button>
                      <div class="add-to-cart">
                         <button class="btn-add">
                            <span>ADD TO CART</span>
@@ -351,7 +351,7 @@
                   </div>
                   <div class="price">$399<sup>50</sup></div>
                   <div class="buttons">
-                     <a href="#" class="btn-more">MORE DETAILS</a>
+                     <button class="btn-more">MORE DETAILS</button>
                      <div class="add-to-cart">
                         <button class="btn-add">
                            <span>ADD TO CART</span>
@@ -385,7 +385,7 @@
                   </div>
                   <div class="price">$599<sup>25</sup></div>
                   <div class="buttons">
-                     <a href="#" class="btn-more">MORE DETAILS</a>
+                     <button class="btn-more">MORE DETAILS</button>
                      <div class="add-to-cart">
                         <button class="btn-add">
                            <span>ADD TO CART</span>
@@ -419,7 +419,7 @@
                   </div>
                   <div class="price">$1250<sup>99</sup></div>
                   <div class="buttons">
-                     <a href="#" class="btn-more">MORE DETAILS</a>
+                     <button class="btn-more">MORE DETAILS</button>
                      <div class="add-to-cart">
                         <button class="btn-add">
                            <span>ADD TO CART</span>
@@ -453,7 +453,7 @@
                   </div>
                   <div class="price">$399<sup>50</sup></div>
                   <div class="buttons">
-                     <a href="#" class="btn-more">MORE DETAILS</a>
+                     <button class="btn-more">MORE DETAILS</button>
                      <div class="add-to-cart">
                         <button class="btn-add">
                            <span>ADD TO CART</span>
@@ -468,6 +468,28 @@
       </div>
    </main>
    <footer class="footer">&copy; Copyright 2017</footer>
+
+   <!-- ============= Modal Window ======================== -->
+   <div class="modal" id="modal">
+      <div class="modal-block">
+         <form action="">
+            <div class="btn-close-wrap">
+               <div class="btn-close">X</div>
+            </div>
+            <h3>Please call for more details</h3>
+            <div class="form-field">
+               <input type="text" placeholder="Your Name">
+            </div>
+            <div class="form-field">
+               <input type="phone" placeholder="Your Phone">
+            </div>
+            <button class="btn-submit" type="submit">Please call</button>
+         </form>
+      </div>
+   </div>
+   <!-- ============= End Modal Window ======================== -->
+
+   <script src="./js/app.js"></script>
 </body>
 
 </html>
